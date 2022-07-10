@@ -1,0 +1,335 @@
+/* General Styles */
+@import "reset.css";
+@font-face {
+    font-family: "B Yekan";
+    src: url("../assets/fonts/BYekan.eot") format('eot');
+    src: url("../assets/fonts/BYekan.ttf") format(truetype);
+    src: url("../assets/fonts/BYekan.woff") format("woff");
+}
+@font-face {
+    font-family: "Bariol";
+    src: url("assets/fonts/Bariol Regular.eot") format('eot');
+    src: url("assets/fonts/Bariol Regular.ttf") format(truetype);
+    src: url("assets/fonts/Bariol Regular.woff") format("woff");
+}
+html,body{
+    direction: rtl;
+    text-align: center;
+    background-color: #eb4f4e;
+    font-family: "B Yekan";
+    height: 100%;
+}
+.main{
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    opacity: 0.5;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: "B Yekan";
+    color: #fff;
+}
+.clear{
+    clear: both;
+}
+.w30{
+    width: 32%;
+}
+.w25{
+    width: 24%;
+}
+img{
+    max-width: 100%;
+}
+/* Header Styles */
+div#header {
+    background-color: hsla(0,60%,61%,57);
+    height: 111px;
+}
+.menubtn{
+    display: none;
+}
+div#header section.main img{
+    float: right;
+    margin: 23px auto;
+}
+div#header section.main nav{
+    float: left;
+    margin: 40px auto;
+}
+div#header section.main nav ul li{
+    display: inline-block;
+    margin-left:57px;
+}
+div#header section.main nav ul li a {
+    font-size: 18px;
+}
+div#header section.main nav ul li.current{
+    padding: 2px 23px;
+    background-color: #323a45;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+h1.welcome{
+    margin-top: 46px;
+    font-size: 60px;
+}
+/* fraction Slider*/
+.gslider{
+    height: 100%;
+    min-height: 666px;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+}
+.slide p{
+    text-align: center;
+    font-size: 42px;
+}
+/* Contents */
+    /* why us*/
+div.whyus{
+    background-color: #000;
+}
+div.whyus section.main h3{
+    font-size: 36px;
+}
+div.whyus section.main p.explain{
+    color: #e74c3c;
+    font-size: 18px;
+    margin-bottom: 26px;
+    box-sizing: border-box;
+}
+div.whyus section.main div.w30{
+    display: inline-block;
+}
+div.whyus section.main div.w30 h4{
+    font-size: 24px;
+}
+div.whyus section.main div.w30 p{
+    color: #fff;
+    font-size: 18px;
+}
+div.whyus section.main{
+    padding: 48px;
+    box-sizing: border-box;
+}
+    /* Team */
+section.team{
+    background-color: #6cc372;
+    padding: 38px;
+    box-sizing: border-box;
+}
+section.team h3{
+    font-size: 30px;
+}
+section.team p{
+    font-size: 14px;
+    margin-bottom: 52px;
+    box-sizing: border-box;
+}
+section.team div.w25{
+    display: inline-block;
+    background-color: #fff;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+section.team div.w25 img.general{
+    margin-top: 25px;
+    border: 9px solid #6cc372;
+    border-radius: 85px;
+    box-sizing: border-box;
+}
+section.team div.w25 h4{
+    color: #6cc372;
+    font-size: 30px;
+}
+section.team div.w25 h5{
+    font-size: 18px;
+    color: #e13e30;
+    margin-bottom: 26px;
+}
+section.team div.w25 a{
+    font-family: "Bariol";
+    padding: 10px 58px;
+    background-color: #6cc372;
+    font-size: 25px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+div.portfolio{
+    background-color: #f0f0f0;
+    padding-top: 45px;
+    padding-bottom: 75px;
+}
+div.portfolio section.main h3{
+    font-size: 30px;
+    color: #3d3d3d;
+}
+div.portfolio section.main p{
+    font-size: 14px;
+    color: #6cc372;
+    margin-bottom: 45px;
+}
+section.comment h3{
+    font-size: 30px;
+    margin-top: 35px;
+}
+section.comment h4{
+    font-size: 18px;
+
+}
+section.comment p{
+    font-size: 18px;
+    color: #000;
+    margin-top: 15px;
+}
+section.comment div.slide img{
+    border: 5px solid #fff;
+    border-radius: 35px;
+}
+section.comment div.slide p{
+    color: #fff;
+}
+section.comment div.slider{
+    min-height: 180px;
+    height: 200px;
+}
+#footer{
+    background-color: #232324;
+    height: 50px;
+}
+#footer p{
+    float: right;
+    margin-top: 10px;
+    color: #f1f1f1;
+    font-size: 18px;
+}
+#footer nav{
+    float: left;
+}
+#footer nav ul li{
+    display: inline-block;
+}
+#footer nav ul li a{
+    background-color: #eb4f4e;
+    padding: 4px;
+    border-radius: 3px;
+}
+#footer nav ul li a img{
+    margin-top: 15px;
+    vertical-align: -3px;
+}
+/* Tablets*/
+@media screen and (max-width: 768px) {
+    .main{
+        width: 100%;
+    }
+    div#header {
+        height: 165px;
+    }
+    .menubtn{
+        display: none;
+    }
+    div#header section.main img{
+        float: none;
+    }
+    div#header section.main nav{
+        float: none;
+        margin: 0 auto;
+    }
+    section.gslider div.slider, .gslider{
+        display: none;
+    }
+    .w25{
+        width: 49%;
+    }
+    .comment{
+        display: none;
+    }
+    #footer p{
+        padding-right: 15px;
+    }
+    #footer nav{
+        padding-left: 15px;
+    }
+}
+/* Mobiles */
+@media screen and (max-width: 400px){
+    #header{
+        position: relative;
+    }
+    .menubtn{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 3px;
+        z-index: 9999;
+        cursor: pointer;
+    }
+    .menubtn:hover{
+        opacity: 0.6;
+    }
+    div#header{
+        height: 111px;
+        z-index: 999999999;
+    }
+    div#header nav ul li.current{
+        padding: initial;
+        background-color: #323a45;
+        border-radius: 0;
+    }
+    #header nav{
+        display: none;
+        height: auto;
+    }
+    #header nav ul{
+        background-color: #323a45;
+        text-align: center;
+    }
+    #header nav ul li {
+        float: none;
+        padding: 10px 0 10px 0;
+        margin: 0;
+        border-bottom: 1px solid #39424f;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    header nav ul li:hover {
+        background-color: #424c5b;
+    }
+    .w25{
+        width: 100%;
+    }
+    section.team div.w25 a{
+        padding: 10px;
+    }
+    div.portfolio {
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+    div.portfolio section.main p {
+        margin-bottom: 30px
+    }
+    #footer{
+        height: 80px;
+    }
+    #footer nav{
+        float: none;
+        padding: 0;
+    }
+    #footer p{
+        float: none;
+        margin-top: 0;
+        padding: 10px 0 0 0;
+    }
+
+}
